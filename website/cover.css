@@ -36,11 +36,16 @@ body {
 }
 body {
   margin: 0;
-  background: url('assets/home_back.jpg') center center;
+  background:
+    linear-gradient(
+      rgba(30, 30, 30, 0.7),
+      rgba(30, 30, 30, 0.7)
+      ),
+    url('assets/home_back.jpg') center center;
   background-size: cover;
   background-repeat:no-repeat;
   display: compact;
-  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -59,6 +64,9 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  /* background: rgba(30, 30, 30, 0.7);
+  border-radius: 25px;
+  padding: 25px; */
 }
 
 /* Padding for spacing */
@@ -70,6 +78,7 @@ body {
 /*
  * Header
  */
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
