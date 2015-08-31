@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  /* background-color: #333; */
 }
 body {
   color: #fff;
@@ -38,13 +38,14 @@ body {
   margin: 0;
   background:
     linear-gradient(
-      rgba(30, 30, 30, 0.7),
-      rgba(30, 30, 30, 0.7)
+      rgba(30, 30, 30, 0.85),
+      rgba(30, 30, 30, 0.85)
       ),
     url('assets/desk.jpg') center center;
   background-attachment: scroll;
   background-size: cover;
   background-repeat:no-repeat;
+  background-attachment: fixed;
   display: compact;
   /* font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
@@ -53,11 +54,11 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
-  overflow: auto;
+  /* overflow: auto; */
   /* height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  /* -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -154,11 +155,11 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    top: 0px;
   }
   .mastfoot {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
   }
   /* Start the vertical centering */
